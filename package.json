@@ -1,0 +1,13 @@
+{
+  "name": "camerashuttercount",
+  "private": true,
+  "scripts": {
+    "build": "bun build ./index.html --minify --target browser --outdir ./dist"
+  },
+  "devDependencies": {
+    "@types/w3c-web-usb": "^1.0.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
