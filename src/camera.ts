@@ -1,4 +1,6 @@
 /*
+ * WebUSB implementation of portions of libgphoto2's ptp2
+ *
  * Copyright (C) 2001-2004 Mariusz Woloszyn <emsi@ipartners.pl>
  * Copyright (C) 2003-2024 Marcus Meissner <marcus@jet.franken.de>
  * Copyright (C) 2006-2008 Linus Walleij <triad@df.lth.se>
@@ -52,7 +54,7 @@ const CAPTURED_PROP_CHANGES = new Set([
   PTP_DPC_CANON_EOS_ShutterReleaseCounter,
 ]);
 
-interface CameraInfo {
+export interface CameraInfo {
   manufacturer: string;
   model: string;
   version: string;
