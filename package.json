@@ -6,7 +6,8 @@
     "build": "bun build ./src/index.html --minify --target browser --outdir ./dist && cp -r assets dist/"
   },
   "dependencies": {
-    "preact": "^10.28.3"
+    "preact": "^10.28.3",
+    "simpledotcss": "^2.3.7"
   },
   "devDependencies": {
     "@types/w3c-web-usb": "^1.0.13"
